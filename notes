@@ -1,0 +1,7 @@
+to download Google Drive PDF, use:
+gdown https://drive.google.com/uc?id=< file ID >
+
+note: latest resume has id 1E_4NhIJYVz1vC0eG2hmvgu83hhrtM1DD
+
+example:
+gdown https://drive.google.com/uc?id=1E_4NhIJYVz1vC0eG2hmvgu83hhrtM1DD
