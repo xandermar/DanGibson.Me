@@ -37,7 +37,14 @@
          <div class="row mb-5">
             <div class="col">
                <h1>:: Dan Gibson ::</h1>
-               <h2>Drupal Developer</h2>
+               <div class="desciptor">Drupal Developer: <?php print since('2003-01-01'); ?> years</div>
+               <div class="desciptor">PHP: <?php print since('1995-01-01'); ?> years</div>
+               <div class="desciptor">Bash/Basic/Cobol: <?php print since('1982-01-01'); ?> years</div>
+               <hr>
+               <div><span class="highlights">Highlights:</span> <a href="https://www.drupal.org/home" target="_blank">Drupal</a> 7/8/9/10, <a href="https://docs.docker.com/get-docker/" target="_blank">Docker</a> (<a href="https://lando.dev/" target="_blank">Lando</a>/<a href="https://docs.docksal.io/" target="_blank">Docksal</a>), <a href="https://www.jenkins.io/" target="_blank">Jenkins CI/CD</a>, <a href="https://www.acquia.com/" target="_blank">Acquia</a> (<a href="https://docs.acquia.com/acquia-cloud-platform/features/pipelines" target="_blank">Pipelines</a>, <a href="https://docs.acquia.com/acquia-cloud-platform/add-ons/acquia-cli" target="_blank">CLI</a>), <a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a>, Migration, Custom Modules/Themes, APIs, <a href="https://www.drupal.org/project/simplesamlphp_auth" target="_blank">SimpleSAML</a>, <a href="https://designsystem.digital.gov/" target="_blank">USWDS</a> / <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://react.dev/" target="_blank">React</a></div>
+               <hr>
+               <div>Very experienced with Drupal Upgrades: 7 to 8 to 9 to 10!</div>
+               <div>Tired of DEV Team ramp up? Ask me about configuring <a href="https://github.com/features/codespaces" target="_blank">GitHub Codespaces</a></div>
             </div>
             <?php print msg($_GET['m']); ?>
          </div>
@@ -52,9 +59,10 @@
          <a href="https://www.facebook.com/dgibson74" target="_blank">Facebook</a>
          <a href="https://twitter.com/DanGibsonMe" target="_blank">X</a>
          <a href="https://www.linkedin.com/in/dangibsonme/" target="_blank">LinkedIn</a>
+         <a href="https://github.com/xandermar" target="_blank">GitHub</a>
+         <a href="https://www.drupal.org/xandermar-llc" target="_blank">Drupal Community</a>
       </div>
-      <hr>
-      <footer class="text-center">
+      <footer class="text-center mb-5">
          <!-- Footer content -->
          <div>&copy;2024 DanGibson.Me <br> All rights reserved</div>
       </footer>
