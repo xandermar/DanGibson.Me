@@ -1,0 +1,18 @@
+body {
+    font-family: "Space Mono", monospace;
+}
+
+h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+footer {
+    padding: .5rem;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
