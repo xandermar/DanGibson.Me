@@ -36,6 +36,18 @@ function msg($m){
       <style>body{font-family: "Space Mono", monospace;}h1{font-size: 8vw;font-weight: bold;white-space: nowrap;}footer { padding: .5rem; width: 100%;}li{list-style-type: none;}</style>
 
 
+
+<!-- close the message after 10 seconds -->
+<script>
+$(document).ready(function(){
+    setTimeout(function(){
+        $('.alert').fadeOut('slow', function() {
+            window.location.href = '/'; // Redirect after fading out
+        });
+    }, 10000); // 10 seconds
+});
+</script>
+
    </head>
    <body>
       <div class="container text-center mt-5">
