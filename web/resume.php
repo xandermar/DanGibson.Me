@@ -18,6 +18,9 @@ $email = $items[1]['email'];
 $sent_hash = $items[2]['hash'];
 $sent_hash == $hash ? true : header('Location: /?m=2');
 
+// add submit attempt to counter
+include('functions/messageSubmitCounter.php');
+messageSubmitCounter($ipAddress);
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;

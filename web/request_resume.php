@@ -38,6 +38,12 @@ $content .= '<p class="mb-5"><a class="btn btn-primary" href="https://www.dangib
 // for future use?
 $deny = '<p class="mb-5"><a class="btn btn-primary" href="https://www.dangibson.me/resume.php?'.base64_encode('do=0&email='.$email.'&hash=074af0687fd36dcf0bc4486973047a3892ef3ba0cddbf4aea120097cee47d67e').'">DENY</a></p>';
 
+
+// add submit attempt to counter
+include('functions/messageSubmitCounter.php');
+messageSubmitCounter($ipAddress);
+
+
 $body = '
 <!DOCTYPE html>
 <html lang="en">

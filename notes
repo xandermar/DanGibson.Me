@@ -5,3 +5,9 @@ note: latest resume has id 1E_4NhIJYVz1vC0eG2hmvgu83hhrtM1DD
 
 example:
 gdown https://drive.google.com/uc?id=1E_4NhIJYVz1vC0eG2hmvgu83hhrtM1DD
+
+---
+
+Google reCaptcha
+site key: 6Lfd16gpAAAAAC-w8xITU4B9J3CmbPAiFJxkN4bM
+secret key: 6Lfd16gpAAAAAK8tewCOLOh07HbQkMjMKo9SCzvt
