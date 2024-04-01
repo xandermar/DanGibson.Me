@@ -42,10 +42,24 @@
                <div class="desciptor">PHP: <?php print since('1995-01-01'); ?> years</div>
                <div class="desciptor">Bash/Basic/Cobol: <?php print since('1982-01-01'); ?> years</div>
                <hr>
-               <div><span class="highlights">Highlights:</span> <a href="https://www.drupal.org/home" target="_blank">Drupal</a> 7/8/9/10, <a href="https://docs.docker.com/get-docker/" target="_blank">Docker</a> (<a href="https://lando.dev/" target="_blank">Lando</a>/<a href="https://docs.docksal.io/" target="_blank">Docksal</a>), <a href="https://www.jenkins.io/" target="_blank">Jenkins CI/CD</a>, <a href="https://www.acquia.com/" target="_blank">Acquia</a> (<a href="https://docs.acquia.com/acquia-cloud-platform/features/pipelines" target="_blank">Pipelines</a>, <a href="https://docs.acquia.com/acquia-cloud-platform/add-ons/acquia-cli" target="_blank">CLI</a>), <a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a>, Migration, Custom Modules/Themes, APIs, <a href="https://www.drupal.org/project/simplesamlphp_auth" target="_blank">SimpleSAML</a>, <a href="https://designsystem.digital.gov/" target="_blank">USWDS</a> / <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>, <a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://react.dev/" target="_blank">React</a></div>
+               <div><span class="highlights">
+                  Highlights:</span> <?php print modal_link('Drupal'); ?> 7/8/9/10, 
+                  <?php print modal_link('Docker'); ?> (<?php print modal_link('Lando'); ?>/<?php print modal_link('Docksal'); ?>), 
+                  <?php print modal_link('Jenkins CI/CD'); ?>, 
+                  <?php print modal_link('Acquia'); ?> 
+                  (<?php print modal_link('Pipelines'); ?>, <?php print modal_link('CLI'); ?>), 
+                  <?php print modal_link('Amazon Web Services'); ?>, 
+                  Migration, 
+                  Custom Modules/Themes, APIs, 
+                  <?php print modal_link('SimpleSAML'); ?>, 
+                  <?php print modal_link('USWDS'); ?> / <?php print modal_link('Bootstrap'); ?>, 
+                  <?php print modal_link('jQuery'); ?>, 
+                  <?php print modal_link('Angular'); ?>, 
+                  <?php print modal_link('React'); ?>
+               </div>
                <hr>
                <div>Very experienced with Drupal Upgrades: 7 to 8 to 9 to 10!</div>
-               <div>Tired of DEV Team ramp up? Ask me about configuring <a href="https://github.com/features/codespaces" target="_blank">GitHub Codespaces</a></div>
+               <div>Tired of DEV Team ramp up? Ask me about configuring <?php print modal_link('GitHub Codespaces'); ?></div>
             </div>
             <?php print msg($_GET['m']); ?>
          </div>
