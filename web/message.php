@@ -10,6 +10,10 @@ $company = $_POST['company'] ?? '';
 $email = $_POST['email'] ?? '';
 $message = $_POST['message'] ?? '';
 
+if($email=='ericjonesmyemail@gmail.com'){
+  die('Denied.');
+}
+
 // SMTP Configuration
 $smtpHost = 'smtp.ionos.com';
 $smtpUsername = 'communications@xdm.io';
