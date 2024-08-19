@@ -11,6 +11,10 @@ $email = $_POST['email'] ?? '';
 $reason = $_POST['reason'] ?? '';
 $other_reason = $_POST['other_reason'] ?? '';
 
+// validate
+require '/app/web/functions/validate.php';
+validate();
+
 // SMTP Configuration
 $smtpHost = 'smtp.ionos.com';
 $smtpUsername = 'communications@xdm.io';

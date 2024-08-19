@@ -10,9 +10,9 @@ $company = $_POST['company'] ?? '';
 $email = $_POST['email'] ?? '';
 $message = $_POST['message'] ?? '';
 
-if($email=='ericjonesmyemail@gmail.com'){
-  die('Denied.');
-}
+// validate
+require '/app/web/functions/validate.php';
+validate();
 
 // SMTP Configuration
 $smtpHost = 'smtp.ionos.com';
