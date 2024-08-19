@@ -11,7 +11,7 @@ $email = $_POST['email'] ?? '';
 $message = $_POST['message'] ?? '';
 
 // validate
-require '/app/web/functions/validate.php';
+require 'functions/validate.php';
 validate();
 
 // SMTP Configuration

@@ -12,7 +12,7 @@ $reason = $_POST['reason'] ?? '';
 $other_reason = $_POST['other_reason'] ?? '';
 
 // validate
-require '/app/web/functions/validate.php';
+require 'functions/validate.php';
 validate();
 
 // SMTP Configuration
